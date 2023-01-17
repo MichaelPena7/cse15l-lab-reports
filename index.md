@@ -6,4 +6,5 @@ For the first part, it was atypical of a standard download. This is because my c
 
 ![Image][WhereLinuxIs.png]
 
+After waiting a few minutes for Linux to download, I was now ready to download VSCode! 
 
