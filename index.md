@@ -21,8 +21,20 @@ From there, I had to type out "ssh cs15lwi23xx@ieng6.ucsd.edu" into the terminal
 ![Image](RemotelyConnecting.png)
 ![Image](Confirmation.png)
 
-Once you type in "ssh cs15lwi23xx@ieng6.ucsd.edu" with your special characters replacing "xx", you will be asked for a password. A successful attempt results in these two images above! Unfortunately for me, I actually forgot about the downtime needed for your account to process the password change, resulting in the 47 attempt message shown in the picture. However, this did give me a glimpse of what occurs when you fail a password. The first two failed attempts will repeat the "Password:" line. Next, the next three attempts will warn you that permission has been denied. Once you enter the fifth failed attempt, VSCode will halt the password entering process all together and kick you out of the command, meaning you have to reenter "ssh cs15lwi23xx@ieng6.ucsd.edu" for another 5 attempts!
+Once you type in "ssh cs15lwi23xx@ieng6.ucsd.edu" with your special characters replacing "xx", you will be asked for a password. A successful attempt results in these two images above! Unfortunately for me, I actually forgot about the downtime needed for your account to process the password change, resulting in the 47 attempt message shown in the picture. However, this did give me a glimpse of what occurs when you fail a password. The first two failed attempts will repeat the "Password:" line. Next, the next three attempts will warn you that permission has been denied. Once you enter the fifth failed attempt, VSCode will halt the password entering process all together and disconnect you, meaning you have to reenter "ssh cs15lwi23xx@ieng6.ucsd.edu" for another 5 attempts!
 
 ![Image](FailedPassword.png)
 
 Back to VSCode, with connecting remotely with others I was now able to try out some commands!
+
+For the first command, I chose "ls -lat" and typed it into an empty terminal entry. It printed out several entries starting from when I first logged into VSCode. Although I'm not entirely sure if this is accurate, it seems to display the records of when I was active in VSCode
+
+Next, I chose "ls -a". It printed out several terms starting with ".". Honestly, I'm not sure what it meant, but several terms were bolded and stood out which peaks my curiosity. Maybe it means files that are currently active and/or on? Here are the results for both of my commands here:
+
+![Image](Commands.png)
+
+For the last command I'll be showing my attempt on "ls <directory>", with "<directory>" being replaced with "/home/linux/ieng6/cs15lwi23/cs15lwi23name", where "name" should be replaced with one of your group member's name. I tried my own name, and unfortunately it did not work for me, and did not display anything. I even tried using my special characters to see if that could work, and that also didn't work. Here is my attempt here:
+  
+![Image](CommandAttempt.png)
+  
+Ultimately, this was my experience downloading and using VSCode to connect to classmates. Hopes this is helpful, and have a good day!
