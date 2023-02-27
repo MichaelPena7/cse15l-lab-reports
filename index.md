@@ -19,7 +19,7 @@ Essentially, it makes searching for the exact instances of a pattern much easier
 
 **2. "-m"**
 
-"grep -rm [n] [pattern]" is a command that will search through "./written_2" 'n' amount of times for the pattern, stopping the search once it reaches 'n' or there are no more matches, with 'n' being a positive integer. This can be helpful in giving the first few instances of the specified pattern Here are some examples:
+"grep -rm [n] [pattern]" is a command that will search through "./written_2" 'n' amount of times for the pattern, stopping the search once it reaches 'n' or when there are no more matches, with 'n' being a positive integer. This can be helpful in giving the first few instances of the specified pattern in a directory, or if you only need a certain amount of examples of that pattern existing. Here are some examples:
 
 ![Image](grepex3.png)
 
@@ -29,7 +29,7 @@ Here, I set n to 1, allowing grep to simply show me the first instance of both h
 
 **3. "-c"**
 
-"grep -rc [pattern]" is a command that will search through "./written_2" for the pattern, and display the amount of times that aforementioned pattern is seen in that file. Here are two examples:
+"grep -rc [pattern]" is a command that will search through "./written_2" for the pattern, and display the amount of times that the aforementioned pattern is seen in that file. Here are two examples:
 
 ![Image](grepex5.png)
 
@@ -39,7 +39,7 @@ Here, we can see the amount of times that the words "frog" and "rain" appear in 
 
 **4. "-L"**
 
-"grep -rL [pattern]" is a command that will search through "./written_2" for files that DO NOT contain the pattern. Essentially, it inverses what -rl does, and gives an output containing files that do not have the pattern here are some examples:
+"grep -rL [pattern]" is a command that will search through "./written_2" for files that DO NOT contain the pattern. Essentially, it inverses what -l does, and gives an output containing files that do not have the pattern. Here are some examples:
 
 ![Image](grepex7.png)
 
@@ -47,7 +47,7 @@ Here, I incuded the use of "-rc" to prove "-rL"! Note how chapters 8 and 9 of Ka
 
 ![Image](grepex8.png)
 
-In summary, this command is incredibly useful in finding the inverse content of what "grep -l" would normally display. In my cases, if you didn't want a file to mention "water", then chapters 8 and 9 would be the perfect place to start as -L would display them.
+In summary, this command is incredibly useful in finding the inverse content of what "grep -l" would normally display. In my cases, if you didn't want a file to mention "water", then chapters 8 and 9 would be the perfect place to start as -rL would display them.
 
 **Credits**
 
