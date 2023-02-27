@@ -10,14 +10,11 @@ I decided to pick "", "", "", and "" for this lab report! However, I would like 
 **1. grep -rL"**
 "grep -r --color [pattern]" is a command that will search through "./written_2" for files that contain the pattern, then print each file and its text one by one. However, using the "--color" option, the instances of the pattern will now be highlighted in a different color font, allowing for clear and easy access of where the pattern actually is in the files! Here are some examples:
 
+![Image](grepex1.png)
 
+![Image](grepex2.png)
 
-
-Essentially, it makes searching for the exact instances of a pattern much easier! 
-
-
-
-This command option proves itself to be very useful as it can filter out 
+Essentially, it makes searching for the exact instances of a pattern much easier! For example, if you wanted to read more about frogs, it would give a clear place as to which sentences in the text file have "frogs"!
 
 **2. grep "**
 
