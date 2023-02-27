@@ -1,6 +1,6 @@
 **Lab Report 2**
 
-**Part 1**
+**Part 1** doe
 ![Image](Code.png)
 
 I thought this code would work, as each new request would add on "/n <string>" into the String and enable for each line to be different. However, when I test it, the localhost website becomes pure white and does not respond. I am not sure what I did wrong.
