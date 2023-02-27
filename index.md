@@ -42,7 +42,9 @@ Here, we can see the amount of times that the words "frog" and "rain" appear in 
 "grep -rL [pattern]" is a command that will search through "./written_2" for files that DO NOT contain the pattern. Essentially, it inverses what -rl does, and gives an output containing files that do not have the pattern here are some examples:
 
 ![Image](grepex7.png)
+
 Here, I incuded the use of "-rc" to prove "-rL"! Note how chapters 8 and 9 of Kauffman are the only chapters that do not have any mention of the pattern "water", and as a result, are the only ones displayed in the output of "-rL".
+
 ![Image](grepex8.png)
 
 In summary, this command is incredibly useful in finding the inverse content of what "grep -l" would normally display. In my cases, if you didn't want a file to mention "water", then chapters 8 and 9 would be the perfect place to start as -L would display them.
