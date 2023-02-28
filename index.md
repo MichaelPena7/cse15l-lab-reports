@@ -4,9 +4,9 @@
  
  **Buttons Pressed**
  
- /<up><up><up><up><up><up><up><up><up><up><up><enter>
+ \<up><up><up><up><up><up><up><up><up><up><up><enter>
  
- *typed password* /<enter>
+ *typed password* \<enter>
  
  **Explanation**
  
