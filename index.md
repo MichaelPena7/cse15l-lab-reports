@@ -44,6 +44,27 @@ For Step 5, I just felt like typing git clone was easier than looking for the co
  \<up>\<up>\<up>\<up>\<up>\<up>\<up>\<up>\<up>\<up>\<enter>
  
 **Explanation**
-First, I typed "cd lab7", as it is a relatively short command and it brings me to the correct directory to compile and run the test file. Then, with the sheer size and complexity of the compile and run commands in mind, I opted to use my command history and find my previous attempt's compile and run commands by pressing up 10 times for each.
+First, I typed "cd lab7", as it is a relatively short command and it brings me to the correct directory to access testListExamples.java and compile and run it. Then, with the sheer size and complexity of the compile and run commands in mind, I opted to use my command history and find my previous attempt's compile and run commands by pressing up 10 times for each. From there, I was able to demonstrate the failed test.
+
+**Step 7**
+
+![Image](PICS_For_LAB4/step4.png)
+
+**Buttons Pressed**
+**Explanation**
+
+**Step 8**
+
+![Image](PICS_For_LAB4/step5.png)
+
+**Buttons Pressed**
+**Explanation**
+
+**Step 9**
+
+![Image](PICS_For_LAB4/step6.png)
+
+**Buttons Pressed**
+**Explanation**
  
  
