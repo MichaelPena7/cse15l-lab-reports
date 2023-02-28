@@ -1,3 +1,3 @@
 **Lab Report 4**
 
-![Image](step1.png)
+![Image](PICS_For_LAB4/step1.png)
