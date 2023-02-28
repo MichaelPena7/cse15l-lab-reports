@@ -64,7 +64,7 @@ First, I typed "cd lab7", as it is a relatively short command and it brings me t
 
 
 **Explanation**
-To change th efile and fix the test error, I first needed to open ListExamples.java under nano. To do this, I started with "nano Lis" and then pressed tab so that the autocomplete shortcut would finish the rest for me. However, since there is a file called ListExamples.class, I had to type the remaining "java" to finish the command, as it left me with "nano ListExamples.". Once I ran the command, nano editing opened up. I quickly scrolled to the error by pressing down and right 22 and 12 times respectively. I then deleted the "1" causing the error, an replaced it with "2". Then, to save the changes, I typed Ctrl+O, and then confirmed the save with enter. Finally, all that was left for this step was to exit nano using Ctrl+X.
+To change the file and fix the test error, I first needed to open ListExamples.java under nano. To do this, I started with "nano Lis" and then pressed tab so that the autocomplete shortcut would finish the rest for me. However, since there is a file called ListExamples.class, I had to type the remaining "java" to finish the command, as it left me with "nano ListExamples.". Once I ran the command, nano editing opened up. I quickly scrolled to the error by pressing down and right 22 and 12 times respectively. I then deleted the "1" causing the error, an replaced it with "2". Then, to save the changes, I typed Ctrl+O, and then confirmed the save with enter. Finally, all that was left for this step was to exit nano using Ctrl+X.
 
 **Step 8**
 
