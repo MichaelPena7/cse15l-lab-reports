@@ -58,7 +58,7 @@ First, I typed "cd lab7", as it is a relatively short command and it brings me t
  \<down>\<down>\<down>\<down>\<down>\<down>\<down>\<down>\<down>\<down>\<down>\<down>\<down>\<down>\<down>\<down>\<down>\<down>\<down>\<down>\<down>\<down>
  \<right>\<right>\<right>\<right>\<right>\<right>\<right>\<right>\<right>\<right>\<right>\<right>
  \<backspace>
- *typed 2*
+ *typed "2"*
  
  \<Ctrl+O>\<enter>\<Ctrl+X>
 
@@ -87,7 +87,7 @@ Since I just recently complied and ran the test file, I only had to press up thr
 **Buttons Pressed**
 
 *typed "git add Lis"*\<tab>
-*typed "java'*\<enter>
+*typed "java"*\<enter>
 
 *typed "git commit -m 'yeh'"\<enter>
 
