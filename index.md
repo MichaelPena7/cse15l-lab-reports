@@ -4,7 +4,9 @@
  
  **Buttons Pressed**
  
- <up> <up> <up> <up> <up> <up> <up> <up> <up> <up> <up> <enter>, *typed password* <enter>
+ <up><up><up><up><up><up><up><up><up><up><up><enter>
+ 
+ *typed password* <enter>
  
  **Explanation**
  
