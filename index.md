@@ -89,7 +89,7 @@ Since I just recently complied and ran the test file, I only had to press up thr
 *typed "git add Lis"*\<tab>
 *typed "java'*\<enter>
 
-*typed 'git commit -m "yeh"\<enter>
+*typed "git commit -m 'yeh'"\<enter>
 
 \<up>\<up>\<up>\<up>\<up>\<up>\<up>\<up>\<up>\<up>\<enter>
  
