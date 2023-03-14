@@ -25,7 +25,7 @@ To break this down, "rm" means to remove a file entirely, "-rf" are two combined
 
 ![Image](ChatGPT_help2.png)
 
-Finally, I now needed to create the bash file in my ieng6 account. To do this, all you need to do is prompt "nano <name of file>.sh", and it will open up a new file to be edited. From there, I logged in, typed "nano my_test.sh", did <Ctrl+X>, pasted all the contents onto the newly open file, pressed <enter> to confirm my changes, and exited with <Ctrl+X>. I then ran the file, and it seemed to be successful! All I needed to do was log in normally, typed "bash my_test.sh", edited the file from nano, and was given these successful results, just from a bash script!
+Finally, I now needed to create the bash file in my ieng6 account. To do this, all you need to do is prompt "nano <<name of file>>.sh", and it will open up a new file to be edited. From there, I logged in, typed "nano my_test.sh", did <Ctrl+X>, pasted all the contents onto the newly open file, pressed <enter> to confirm my changes, and exited with <Ctrl+X>. I then ran the file, and it seemed to be successful! All I needed to do was log in normally, typed "bash my_test.sh", edited the file from nano, and was given these successful results, just from a bash script!
   
 ![Image](success.png)
 ![Image](success2.png)
