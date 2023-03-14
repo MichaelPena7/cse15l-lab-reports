@@ -1,11 +1,10 @@
 **Lab Report 5**
 
-Here, I will be expanding upon Lab Report 4 and explore how I went about speeding up the process in executing steps four through nine with a bash script that encompasses the general goal 
-of steps four through nine.
+Here, I will be expanding upon Lab Report 4 and explore how I went about speeding up the process in executing steps four through nine with a bash script that encompasses the general goal, being to edit ListExamples.java using nano!
 
-First, I simply copied all the command lines I used into a bash script. At first, I wanted to create a bash file from my ieng6 account and thoroughly create one through there. However, I soon realized that it would have me have to constantly edit it with "nano". Deeming this as tedious with all the \<Ctrl+O> and \<Ctrl+X> I would have to do, I decided to simply create a bash file called "test.sh" and simulate what I am meant to do before logging into my ieng6 account.
+First, I simply copied all the command lines I used into a bash script. At first, I wanted to create a bash file from my ieng6 account directly and thoroughly create one through there. However, I soon realized that it would have me have to constantly edit it with "nano". Deeming this as tedious with all the \<Ctrl+O> and \<Ctrl+X> I would have to do, I decided to simply create a bash file called "test.sh" and simulate what I am meant to do before logging into my ieng6 account.
 
-Here is all the commands I inputted into test.sh, which came directly from my Lab Report 4.
+Here is all the commands I inputted into test.sh, all of which came directly from my Lab Report 4.
 
 ![Image](lab5_1.png)
 
@@ -13,7 +12,7 @@ You might notice that my "ssh ieng6" login command is missing. This is because a
 
 ![Image](ChatGPT_help.png)
 
-As a result, I decided that I would just have to input the command in manually, so I will still have to type out "ssh <my ieng6 user>" along with the password.
+As a result, I decided that I would just have to input the command in manually, so I will still have to type out "ssh \<my ieng6 user>" along with the password.
 
 Continuing on, I then had to edit the bash code to work now. Copy and pasting won't work, as you will be met with this error here after your first attempt at editing the file:
 
@@ -25,7 +24,7 @@ To break this down, "rm" means to remove a file entirely, "-rf" are two combined
 
 ![Image](ChatGPT_help2.png)
 
-Finally, I now needed to create the bash file in my ieng6 account. To do this, all you need to do is prompt "nano <<name of file>>.sh", and it will open up a new file to be edited. From there, I logged in, typed "nano my_test.sh", did <Ctrl+X>, pasted all the contents onto the newly open file, pressed <enter> to confirm my changes, and exited with <Ctrl+X>. I then ran the file, and it seemed to be successful! All I needed to do was log in normally, typed "bash my_test.sh", edited the file from nano, and was given these successful results, just from a bash script!
+Finally, I now needed to create the bash file in my ieng6 account. To do this, all you need to do is prompt "nano \<name of file>.sh", and it will open up a new file to be edited. From there, I logged in, typed "nano my_test.sh", did <Ctrl+X>, pasted all the contents onto the newly open file, pressed \<enter> to confirm my changes, and exited with \<Ctrl+X>. I then ran the file, and it seemed to be successful! All I needed to do was log in normally, typed "bash my_test.sh", edited the file from nano, and was given these successful results, just from a bash script!
   
 ![Image](success.png)
 ![Image](success2.png)
